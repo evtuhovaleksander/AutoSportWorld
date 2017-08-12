@@ -13,7 +13,8 @@
         <scene sceneID="pze-qK-Nvn">
             <objects>
                 <navigationController id="3dX-a0-oGQ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Gt-5n-0sT">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="black" translucent="NO" id="5Gt-5n-0sT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -34,11 +35,11 @@
                         <viewControllerLayoutGuide type="bottom" id="X0g-Xw-LkD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="c0B-MD-UzX">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8a-Gh-VpS" customClass="FSCalendar">
-                                <rect key="frame" x="0.0" y="64" width="375" height="258"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="258"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="placeholderType">
